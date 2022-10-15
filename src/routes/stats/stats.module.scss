@@ -1,0 +1,40 @@
+@import '../../assets/styles/_config.scss';
+
+.stats {
+    max-width: 38rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.stats h3 {
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.stats_feed {
+    display: flex;
+    justify-content: center;
+    margin-left: 1rem;
+}
+
+.barchart {
+    display: flex;
+    justify-content: center;
+}
+
+.data_display {
+    text-align: center;
+    padding: 0.8rem;
+}
+
+.reset {
+    display: flex;
+    justify-content: center;
+}
+
+.average {
+    padding: 0.2rem;
+}

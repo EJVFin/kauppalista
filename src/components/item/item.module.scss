@@ -1,0 +1,41 @@
+@import '../../assets/styles/_config.scss';
+
+.item {
+    display: flex;
+    border-bottom: 1px solid $item-border;
+    color: $item-text;
+}
+
+.item_data {
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    padding: $item-padding;
+}
+
+.item_edit {
+    max-width: $item-edit-width;
+    min-width: $item-edit-width;
+    background-color: white;
+    color: $item-edit-text;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.item_edit a {
+    color: $item-text;
+}
+
+.item_checkbox {
+    margin: auto;
+    padding-left: 1rem;
+}
+
+.item_delete {
+    margin:auto;
+    color: $item-edit-text;
+    padding-right: 0.4rem;
+    color: $item-text;
+}
+
+

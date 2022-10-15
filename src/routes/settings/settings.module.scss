@@ -1,0 +1,40 @@
+@import '../../assets/styles/_config.scss';
+
+.settings {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.settings h2 {
+    margin-top: 6rem;
+}
+
+.settings_profile {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.settings_user {
+    display: flex;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.settings_user img {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 1rem;
+}
+
+.settings_button {
+    display: flex;
+    justify-content: center;
+}
